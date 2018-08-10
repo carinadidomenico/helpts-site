@@ -91,11 +91,10 @@ footer > img{
 
 a{
     color: rgb(43, 41, 41);
-    font-size: 28pt;
+    font-size: 25pt;
     display: flex;
     text-decoration: none;
-    padding-right: 50px;
-    padding-top: 22%;
+    padding-top: 28%;
     font-family: 'Comfortaa', cursive;
     
 }

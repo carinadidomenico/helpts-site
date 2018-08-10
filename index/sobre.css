@@ -18,13 +18,13 @@ section{
     text-align: center;   
 }
 h1{
-    color: black
+    color: black;
 }
 p{
     color: grey;
 }
 #img{
-    background-image: url(../imagens/sobre/fotosobre-01.png);
+    background-image: url(../imagens/sobre/FullSizeRender.jpg);
     background-size: 78%;
     position: absolute;
     left: 0;
@@ -48,11 +48,10 @@ p{
 }
 a{
     color: rgb(43, 41, 41);
-    font-size: 28pt;
+    font-size: 25pt;
     display: flex;
     text-decoration: none;
-    padding-right: 50px;
-    padding-top: 22%;
+    padding-top: 28%;
     font-family: 'Comfortaa', cursive;
     
 }
