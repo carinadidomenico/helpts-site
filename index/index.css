@@ -1,0 +1,52 @@
+body{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(66, 65, 63, 0.39);
+    overflow: hidden;
+    margin: 0%;
+    background-image: url(../imagens/download/landpage2.1entrada-01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+img{
+    padding-top: 8%;
+    height: 8%;
+    width: 8%;
+    margin: 0 auto;
+}
+#patinha {
+    width: 100%;
+    display: flex;
+    
+}
+h2{
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size: 39pt;
+    padding-top: 3%;
+    font-family: 'Comfortaa', cursive;
+    font-weight: lighter;
+
+}
+a{
+    color: rgb(43, 41, 41);
+    font-size: 28pt;
+    display: flex;
+    text-decoration: none;
+    padding-right: 50px;
+    padding-top: 22%;
+    font-family: 'Comfortaa', cursive;
+
+}
+#acessar{
+    display: flex;
+    justify-content: flex-end;
+}
+a:hover{
+    font-size: 30pt;
+    transition-duration: 1s;
+    color:rgba(0, 0, 0, 0.644);
+
+}

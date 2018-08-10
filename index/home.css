@@ -1,0 +1,83 @@
+body{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(66, 65, 63, 0.39);
+    overflow: hidden;
+    margin: 0%;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    margin-bottom: 22%;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-weight: lighter;
+}
+
+a:hover{
+    transition-duration:1s;
+    font-family: 'Comfortaa', cursive;
+    font-weight: lighter;
+}
+
+.sobre{
+    background: url(../imagens/sobre/sobreoph.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.comofunciona{
+    background: url(../imagens/como-funciona/comofuncop.jpg);
+    background-size: cover;
+    height: 105%;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.equipe{
+    background: url(../imagens/equipe/equipeoph.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.contato{
+    background: url(../imagens/contato/contoph.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    opacity:0.6;
+}
+
+#logo{
+    position: absolute;
+    top: 0;
+    height: 7vh;
+    margin-top: 1%;
+    width: 22vw;
+    left: 0;
+    background: lightgray;
+}
+
+h1{
+    margin-bottom: 30%
+}
+

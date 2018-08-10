@@ -1,0 +1,101 @@
+body{
+    background-color: white; 
+    margin: 0;                                                                                        
+}
+
+section{
+    display: flex;
+}
+
+.sobre{    
+    width:50vw;
+    align-items: center;
+    justify-content: left;
+    margin-left: 38%;
+    margin-top: 11%;
+    font-family: 'Comfortaa';
+    font-size: 20pt; 
+    text-align: center;  
+}
+
+#img{
+    background-image: url(../imagens/contato/contatojpg-01.jpg);
+    position: absolute;
+    background-size: 78%;
+    z-index: -1;
+    left: 0;
+    width: 47%;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    display: flex;
+    width: 9%;
+    height: 8%;
+    margin-right: 2%;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    background-color: lightgrey;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 12pt;
+}
+
+.form3{
+    height: 15%;
+    width: 100%;display: flex;
+    background-color: lightgrey;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 12pt;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+footer > img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.send{
+    height: 30px;
+    width: 70px;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 12pt;
+}
+
+a{
+    color: rgb(43, 41, 41);
+    font-size: 28pt;
+    display: flex;
+    text-decoration: none;
+    padding-right: 50px;
+    padding-top: 22%;
+    font-family: 'Comfortaa', cursive;
+    
+}
