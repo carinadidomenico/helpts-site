@@ -35,9 +35,22 @@ h1{
     color: black;
     font-weight: lighter;
 }
-p{
-    color: grey;
+h2{
+    color: gray;
+    font-size: 20pt;
+    font-weight: lighter;
 }
+#leg{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    font-size: 9pt;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
 
 .itens:hover{
     opacity: 0.6;

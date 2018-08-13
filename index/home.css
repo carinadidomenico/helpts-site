@@ -16,14 +16,14 @@ a{
     text-decoration: none;
     margin-bottom: 22%;
     color: black;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa';
     font-weight: lighter;
 }
 
 a:hover{
     color: rgb(116, 113, 113);
     transition-duration:1s;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa';
     font-weight: lighter;
 }
 
@@ -79,15 +79,22 @@ a:hover{
     background: lightgray;
 }
 
-.logo{
-    height: 40px;
-    width: 230px;
-    margin-top: 7px;
-    margin-left: 20px;
+.imglogo{
+    height: 84%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+#helpet{
+    font-family: 'Comfortaa';
+    margin-left: 40%;
+    margin-top: 3%;
+    font-size: 25pt;
 }
 
 h1{
-    margin-bottom: 30%
+    margin-bottom: 25%
 }
 
 #opcoes{
@@ -95,7 +102,7 @@ h1{
     top: 0;
     right: 0;
     width: 23.5vw;
-    height: 77vh;
+    height: 70vh;
     margin-top: 1%;
     margin-right: 2%;
     display: flex;
@@ -107,16 +114,22 @@ h1{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.952);
-    height: 67vh;
-    width: 21vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 57vh;
+    width: 19vw;
     align-self: flex-start;
+    border-radius: 2%;
 }
 
 #barra a{
     color: white;
     font-size: 15pt;
-    margin: 20px;
+    margin: 10px;
+}
+
+#barra a:hover{
+    color: rgb(94, 93, 93);
+    transition-duration: 1s;
 }
 
 #hamburguer{
