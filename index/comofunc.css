@@ -52,7 +52,7 @@ h2{
 }
 
 
-.itens:hover{
+.it:hover{
     opacity: 0.6;
 }
 
@@ -63,14 +63,19 @@ h2{
     margin-right: 2%;
 }
 
-#itens{
-    display: flex;
-    justify-content: space-between;
-}
-
 .itens{
     display: flex;
-    height: 9%;   
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+.item img{
+    height: 50px;
+}
+
+p{
+    font-size: 10pt;
 }
 
 .cabecalho{
