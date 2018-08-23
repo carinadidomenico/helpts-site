@@ -24,6 +24,8 @@ h1{
 }
 p{
     color: grey;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17pt;
 }
 #img{
     background-image: url(../imagens/sobre/FullSizeRender.jpg);

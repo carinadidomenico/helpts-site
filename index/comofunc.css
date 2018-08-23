@@ -36,9 +36,11 @@ h1{
     font-weight: lighter;
 }
 h2{
-    color: gray;
-    font-size: 20pt;
+    color: grey;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15pt;
     font-weight: lighter;
+    margin-bottom: 8%;
 }
 #leg{
     display: flex;

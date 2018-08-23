@@ -71,8 +71,9 @@ section{
 p{
     margin: 0px 90px 0px 0;
     font-weight: lighter;
-    font-size: 12pt;
+    font-size: 11pt;
     color: rgb(51, 51, 50);
+    margin-right: 30%;
 }
 
 .ue{
@@ -91,4 +92,13 @@ a{
 
 .ajusteone {
     display: flex;
+
+}
+.ajusteone div{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 6px 0;
+
 }
