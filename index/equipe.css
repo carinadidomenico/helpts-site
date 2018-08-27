@@ -17,7 +17,7 @@ section{
     align-items: center;
     justify-content: left;
     margin-left: 38%;
-    margin-top: 11%;
+    margin-top: 5%;
     font-family: 'Comfortaa';
     font-size: 20pt; 
     text-align: center;  
@@ -37,8 +37,7 @@ section{
 
 .logo{
     display: flex;
-    width: 9%;
-    height: 8%;
+    width: 8%;
     margin-right: 2%;
 }
 

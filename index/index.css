@@ -10,8 +10,8 @@ body{
 }
 img{
     padding-top: 8%;
-    height: 8%;
-    width: 8%;
+    height: 10%;
+    width: 10%;
     margin: 0 auto;
 }
 #patinha {
@@ -35,8 +35,8 @@ a{
     font-size: 28pt;
     display: flex;
     text-decoration: none;
-    padding-right: 50px;
-    padding-top: 22%;
+    margin-right: 5%;
+    margin-top: 16%;
     font-family: 'Comfortaa', cursive;
 
 }

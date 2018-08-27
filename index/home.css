@@ -76,14 +76,13 @@ a:hover{
     margin-top: 1%;
     width: 22vw;
     left: 0;
-    background: lightgray;
+    background: transparent;
 }
 
 .imglogo{
-    height: 84%;
+    height: 100%;
     float: left;
-    margin-left: 20%;
-    margin-top: 1%;
+    margin: 0% 5% 0% 15%
 }
 
 #helpet{
